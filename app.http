@@ -1,0 +1,21 @@
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+    "username": "adam_richard",
+    "password": "richard_567",
+    "name": "Adem Richard",
+    "gender": "male"
+}
+
+###
+POST  http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "JoeBiden",
+  "password": "biden@123"
+}
+{
+  "jwtToken": "your_jwt_token"
+}
